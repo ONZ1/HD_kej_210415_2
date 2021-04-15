@@ -6,9 +6,11 @@ int main(void) {
 	{
 		int num = 0;
 
-		printf("1~9의 수를 입력하면 구구단이 출력됩니다.\n0을 입력하면 프로그램이 종료됩니다.\n");
+		printf("\n1~9의 수를 입력하면 구구단이 출력됩니다.\n0을 입력하면 프로그램이 종료됩니다.\n\n");
 
 		scanf_s("%d", &num);
+
+		printf("\n");
 
 		if (num == 0)break;
 		
@@ -24,7 +26,7 @@ int main(void) {
 			printf("Error");
 		}
 	}
-	printf("프로그램 종료!");
+	printf("프로그램 종료!\n");
 
 	fgetc(stdin);
 	return 0;
