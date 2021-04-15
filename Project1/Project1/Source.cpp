@@ -23,7 +23,7 @@ int main(void) {
 			}
 		}
 		else{
-			printf("Error");
+			printf("Error\n");
 		}
 	}
 	printf("프로그램 종료!\n");
